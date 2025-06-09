@@ -1,0 +1,26 @@
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.hobbies img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+  .more-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    text-align: center;
+  }
+  .more-hobbies > div {
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+  }
