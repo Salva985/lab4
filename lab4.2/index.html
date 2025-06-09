@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/2fd44711b9.js" crossorigin="anonymous"></script>
+    <title>IronSkydive exercise</title>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#structure">Day Structure</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+        </ul>
+      </nav>
+      <header class="hero">
+        <div class="hero-title">
+          <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="IronSkydive Logo" />IronSkydive</h1>
+          <h2>Let the trip begin</h2>
+        </div>
+        <aside class="quote">
+          <em>"The best experience of our lives"</em>
+          <p>Ariel Quiñones & Gonzalo Manrique, Ironhack CEOs</p>
+        </aside>
+      </header>
+
+    <section id="general-information">
+      <div class="card">
+        <h3>Hello!</h3>
+        <p>Welcome to IronSkydiving, the greatest adventure of yout life.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h3>About Us</h3>
+        <p>
+          We like programming websites, but we also love the adrenaline rush.
+        </p>
+        <a href="#">Watch Video</a>
+      </div>
+
+      <div class="card">
+        <h3>Wanna Join?</h3>
+        <p>Sign up so you can become a better programmer, and cooler person.</p>
+        <a href="#">Register</a>
+      </div>
+    </section>
+
+    <section id="structure">
+      <h3>How do we structture the day?</h3>
+      <div class="structure-grid">
+
+        <div class="step-card">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="Training icon" />   
+          <h4>1. <strong>Training</strong></h4>
+          <p>We teach you everything you need to know to jump from a plane.</p>
+        </div>
+
+        <div class="step-card">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="Get ready icon" />
+        <h4>2. <strong>Get ready</strong></h4>
+        <p>You just need the suit and a parachute. All sizes available.</p>
+      </div>
+
+        <div class="step-card">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="Fly icon" />
+        <h4>3. <strong>Fly</strong></h4>
+        <p>You are ready, and the plane is waiting for us in the hangar.</p>
+      </div>
+
+        <div class="step-card">
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="Jump icon" />
+        <h4>4. <strong>Jump!</strong></h4>
+        <p>
+          The complicated part is out of the way. Just one step left... jump!
+        </p>
+        </div>
+    </section>
+
+    <section id="team">
+      <h3>Team</h3>
+      <p>
+        Our team collectively has 75 years of experience. Odds are, when you
+        jump out of the plane with these guys (and girls), you won’t go splat.
+      </p>
+      <div>
+        <article class="team-card">
+          <p class="name">Harold Rothstein</p>
+          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="Harold Rothstein" />
+        </article>
+
+        <article class="team-card">
+          <p class="name">Susan Phillips</p>
+          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="Susan Phillips" />
+    </article>
+    
+        <article class="team-card">
+          <p class="name">Taylor Roberts</p>
+          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Taylor Roberts" />
+        </article>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <h3>Schedule</h3>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9:00am - 11:00am</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>12:00pm - 2:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3:00pm - 5:00pm</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Schedule a Time Slot</h3>
+      <form class="schedule-form">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Participants</label>
+        <input type="number" placeholder="Number of Participants" required />
+
+        <label>Date</label>
+        <input type="date" required />
+
+        <label>Time</label>
+        <select required>
+          <option>Select Time</option>
+          <option>9:00am - 11:00am</option>
+          <option>12:00pm - 2:00pm</option>
+          <option>3:00pm - 5:00pm</option>
+        </select>
+
+        <button type="submit">Reserve Your Slot!</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-info">
+        <h3>Contact Information</h3>
+        <p>IronSkydive<br />
+            33 Rue la Fayette<br />
+            75009 - Paris<br />
+            France<br />
+            555-555-5555
+          </p>
+
+        <h4>Follow Us</h4>
+        <ul>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9880498943646!2d2.347060215674837!3d48.87565297928983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3f6f357df3%3A0xe7c6eb1f6d30b672!2s33%20Rue%20la%20Fayette%2C%2075009%20Paris%2C%20France!5e0!3m2!1sen!2ses!4v1680000000000"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </footer>
+  </body>
+</html>
